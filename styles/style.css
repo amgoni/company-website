@@ -1,0 +1,539 @@
+body {
+	font: 15px/1.5 Nunito Sans, sans-serif;
+	padding: 0;
+	margin: 0;
+	background-color: #ffffff;
+	font-weight: bold;
+}
+
+/*global*/
+.container {
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+.button-1 {
+	height: 38px;
+	background: #d90429;
+	border: 0;
+	border-radius: 7px;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #ffffff;
+	font-family: Nunito Sans, sans-serif;
+	font-weight: bold;
+	width: 150px;
+	font-weight: bolder;
+	font-size: 1em;
+
+}
+
+.button-1:hover {
+	background-color: #d90429;
+	color: #ffffff;
+	opacity: 0.7;
+	border: #d90429 solid 3px;
+	cursor: pointer;
+}
+
+
+/*header*/
+header {
+	background: #ffffff;
+	color: #004e89;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: #d90429 3px solid;
+}
+
+header a{
+	color: #004e89;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+header li {
+	display: inline;
+	float: left;
+	padding: 0 20px;
+}
+
+header #branding {
+	float: left;
+}
+
+header #branding h1 {
+	margin: 0;
+	color: #004e89;
+}
+
+header nav {
+	float: right;
+	margin-top: 10px;
+}
+
+header .highlight, header .current a{
+	color: #d90429;
+	font-weight: bold;	
+}
+
+header a:hover {
+	color: #d90429;
+	padding: 0;
+}
+
+/*showcase*/
+#showcase {
+	min-height: 400px;
+	background: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)), url('../images/showcase.jpg') no-repeat;
+	background-position: center;
+	text-align: center;
+	color: #d90429;
+}
+
+#showcase h1 {
+	margin-top: 100px;
+	font-size: 55px;
+	margin-bottom: 10px;
+}
+
+#showcase p{
+	font-size: 20px;
+}
+
+/*flightbooking*/
+#flightbooking {
+	padding: 15px;
+	color: #004e89;
+	background: #ffffff;
+	font-size: 1.5em;
+	font-weight: bolder;
+}
+
+#flightbooking .container {
+	display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+#flightbooking button {
+	width: 300px;
+	height: 50px;
+	font-weight: bolder;
+	font-size: 1em;
+}
+
+#flightbooking button:hover {
+	background-color: #d90429;
+	opacity: 0.7;
+	color: #ffffff;
+	border: #d90429 solid 3px;
+	cursor: pointer;
+}
+
+/*boxes*/
+#boxes {
+	margin-top: 20px;
+}
+
+/*#boxes .container {
+	display: flex;
+	justify-content: space-evenly;
+}*/
+
+#boxes h1 {
+	text-align: center;
+	color: #004e89;
+	font-size: 3em;
+	padding: 20px;
+	font-weight: bolder;
+}
+
+/*#boxes .box {
+	width: 30%;
+	padding: 10px;
+	text-align: center;
+}
+
+#boxes .box h3 {
+	color: #d90429;
+}*/
+
+#boxes .box {
+	display: flex;
+	align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+
+#boxes .box .write-up {
+	width: 50%;
+	margin-bottom: 100px;
+	font-size: 20px;
+}
+
+#boxes .box .write-up h2 {
+	color: #004e89;
+}
+
+/*get a quote*/
+#contact {
+	margin-bottom: 20px;
+}
+
+#contact .container {
+	display: flex;
+	justify-content: center;
+	width: 90%;
+}
+
+#contact h1 {
+	text-align: center;
+	color: #004e89;
+	font-weight: bolder;
+}
+
+#contact .container .quote label {
+	color: #004e89;
+}
+
+#contact .container .quote input, textarea {
+	border: ;
+	width: 90%;
+	padding: 5px;
+	margin-bottom: 20px;
+	border-color: #d90429;
+}
+
+/*newsletter*/
+#newsletter {
+	padding: 15px;
+	color: #004e89;
+}
+
+#newsletter .container {
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+}
+
+#newsletter input {
+	border: #d90429 solid 3px;
+	border-radius: 5px;
+	height: 30px;
+	margin-right: 5px;
+	width: 250px;
+}
+
+#newsletter button {
+	width: 150px;
+	font-weight: bolder;
+	font-size: 1em;
+}
+
+#newsletter button:hover {
+	background-color: #d90429;
+	color: #ffffff;
+	border: #d90429 solid 3px;
+	cursor: pointer;
+}
+
+
+/*footer*/
+footer {
+	display: flex;
+	justify-content: space-around;
+	padding: 20px;
+	margin-top: 20px;
+	background: #f4f4f4;
+}
+
+#footer h1, #footer p, #footer h3{
+	color: #004e89;
+}
+
+#footer li{
+	list-style: none;
+}
+
+#footer .links li, #footer .socials li {
+	display: inline-block;
+}
+
+#footer .links a {
+	text-decoration: none;
+	display: inline-block;
+	color: #d90429;
+}
+
+#footer .terms a{
+	text-decoration: none;
+	color: #d90429;
+}
+
+#footer span {
+	color: #d90429;
+	font-weight: bold;
+}
+
+.terms {
+	display: flex;
+	align-items: center;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 10px;
+  margin: 5px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+/*linkedin*/
+.fa-linkedin {
+  background:  #2867B2;
+  color: white;
+}
+
+/*about*/
+
+#main h1 {
+	text-align: center;
+	color: #004e89;
+	font-size: 3em;
+    padding-top: 30px;
+}
+
+.about p {
+	font-size: 1.2em;
+}
+
+.about {
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+}
+
+.about .write-up {
+	text-align: center;
+	width: 80%;
+}
+
+/*services*/
+#service-main, .service-heading p {
+	font-size: 1.2em;
+}
+
+.service-heading{
+	text-align: center;
+}
+
+.service-heading h1{
+	font-size: 3em;
+	color: #004e89;
+}
+
+#service-main .container {
+	width: 60%;
+}
+
+#service-main .container h2 {
+	color: #004e89;
+}
+
+#service-main .container p{
+	margin-bottom: 80px;
+}
+
+#service-main {
+	display: flex;
+	margin-right: 100px;
+	margin-left: 100px;
+}
+
+/*contact*/
+
+.contact-heading {
+	font-size: 1.2em;
+}
+
+#contact-us .h2 {
+	font-size: 1em;
+}
+
+#contact-us .h2 h2 {
+	margin-top: 40px;
+	margin-bottom: 0;
+}
+
+#contact-us .h2 p {
+	margin-top: 0;
+}
+
+.contact-heading {
+	margin-right: 100px;
+	margin-left: 100px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+.contact-heading h1, #contact-us h2 {
+	color: #004e89;
+}
+
+#contact-us .container {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+#contact-us .container .contact-us-write-up {
+	margin-left : 20px;
+	margin-right: 20px;
+}
+
+.contact-us-write-up a{
+	text-decoration: none;
+	color: #d90429;
+}
+
+#contact-us .h2 .no-margin {
+	margin-top: 0;
+}
+
+
+/*MEdia queries*/
+
+@media (max-width: 768px) {
+	header #branding, header nav, header nav li, #flightbooking h1, article#main-col {
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+
+	header {
+		padding-bottom: 20px;
+	}
+
+	#showcase h1 {
+		margin-top: 40px;
+	}
+
+	#newsletter button {
+		display: block;
+		width: 100%;
+	}
+
+	#newsletter form input {
+		width: 100%;
+		margin-bottom: 5px;
+	}
+
+	#boxes .container, .box {
+		width: 100%;
+	}
+
+	.box {
+		display: flex;
+	    align-items: center;
+	    margin-bottom: 100px;
+	    flex-direction: column;
+	    flex-wrap: wrap;
+	}
+
+	#boxes .box .write-up {
+		margin-bottom: 0;
+		width: 90%;
+	}
+
+	#boxes .box .write-up h2{
+		text-align: center;
+		margin-top: 0;
+	}
+
+	#boxes h1 {
+		margin-bottom: 0;
+		margin-top: ;
+	}
+
+	header a {
+		font-size: 12px;
+	}
+
+	.about .write-up {
+	text-align: left;
+	width: 100%; 
+	}
+
+	#service-main {
+		margin: 0;
+		flex-direction: column;
+	}
+	.service-heading p {
+		margin-right: 10px;
+		margin-left: 10px;
+	}
+
+	#contact-us .container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 90%;
+	}
+
+	#contact-us .container img{
+		width: 100%;
+		height: 100%;
+	}
+
+	#contact-us .h2 .no-margin {
+	margin-top: 20px;
+	}
+
+	.contact-heading {
+	margin-right: 40px;
+	margin-left: 40px;
+	margin-bottom: 50px;
+	text-align: left;
+	}
+
+	.bottom {
+		margin-bottom: 100px;
+	}
+
+	footer {
+		display: flex;
+		flex-direction: column
+	}
+}
