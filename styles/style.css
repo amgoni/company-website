@@ -445,8 +445,14 @@ footer {
 		padding-bottom: 20px;
 	}
 
+	header li {
+		padding: 0 5px;
+	}
+
 	#showcase h1 {
+		padding-top: 20px;
 		margin-top: 40px;
+		font-size: 3.5em;
 	}
 
 	#newsletter button {
@@ -502,6 +508,10 @@ footer {
 	.service-heading p {
 		margin-right: 10px;
 		margin-left: 10px;
+	}
+
+	#service-main .container {
+		width: 80%;
 	}
 
 	#contact-us .container {
